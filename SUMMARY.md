@@ -1,7 +1,7 @@
 # Summary
 * [前言](README.md)
 * [第一章 简介](Chapter1 Introduction/Chapter 1 Introduction.md)
-* [第二章 数据搜集](Chapter2 Data Collectionn/Chapter 2 Data Collectionn.md)
+* [第二章 数据搜集](Chapter2 Data Collection/Chapter 2 Data Collectionn.md)
 * [第三章 描述性统计](Chapter3 Descriptive Statistics/Chapter 3 Descriptive Statistics.md)
 * [第四章 抽样方法与抽样分布](Chapter4 Sampling And Sample Distribution/Chapter 4 Sampling And Sample Distribution.md)
 * [第五章 参数估计](Chapter5 Estimation/Chapter 5 Estimation.md)  
