@@ -1,0 +1,15 @@
+﻿{
+    "title": "应用统计学与R语言实现学习笔记",
+    "author": "Dai shao-qing",
+    "language": "zh-hans",
+    "gitbook": "3.2.3",
+    "root": ".",
+    "plugins": [
+        "-lunr",
+        "-search",
+        "-highlight",
+        "-livereload",
+        "katex@^1.1.3",
+        "flowchart@^1.1.0"
+    ]
+}
