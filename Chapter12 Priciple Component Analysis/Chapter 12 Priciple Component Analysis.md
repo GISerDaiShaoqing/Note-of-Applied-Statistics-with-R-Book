@@ -27,7 +27,7 @@
 #### 2.1 几何解释
 假定只有二维，即只有两个变量，由横坐标和纵坐标所代表；每个观测值都有相应于这两个坐标轴的坐标值。如果这些数据形成一个椭圆形状的点阵（这在二维正态的假定下是可能的）该椭圆有一个长轴和一个短轴。在短轴方向上数据变化较少。在极端的情况，短轴如退化成一点，长轴的方向可以完全解释这些点的变化，由二维到一维的降维就自然完成了。
 
-![](http://img.blog.csdn.net/20170920201148730?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvRVNBX0RTUQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![](http://pbl6hpz34.bkt.clouddn.com/pca.gif)
 
 由图可以看出这些样本点无论是沿着$$x_l$$轴方向或$$x_2$$轴方向都具有较大的离散性，其离散的程度可以分别用观测变量$$x_l$$的方差和$$x_2$$的方差定量地表示。显然，如果只考虑$$x_1$$和$$x_2$$中的任何一个，那么包含在原始数据中的经济信息将会有较大的损失。
 
@@ -254,44 +254,44 @@ x为主成分分析数据集，nfactors为主成分个数，rotate表示旋转�
 这回用的数据是2006年城市统计年鉴285个地级市的经济人口数据，探究gdp与人口之间的关系。
 先做一个相关系数可视化。发现人口因子之间相互影响因子很高。
 
-![](http://img.blog.csdn.net/20170922113957661?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvRVNBX0RTUQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![](http://pbl6hpz34.bkt.clouddn.com/PCA1.jpg)
 
 于是先对人口的几个因子进行降维和主成分分析，中途发现第三产业从业人数（third)加入会使得系数矩阵不正定，后面就删除了第三产业从业人数(third)。
 分别用不同方式进行主成分分析结果。
 princomp结果（基于协方差矩阵）
 碎石图
 
-![](http://img.blog.csdn.net/20170922114350110?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvRVNBX0RTUQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![](http://pbl6hpz34.bkt.clouddn.com/PCA2.jpg)
 结果
 
-![](http://img.blog.csdn.net/20170922114628759?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvRVNBX0RTUQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![](http://pbl6hpz34.bkt.clouddn.com/PCA3.jpg)
 
 主成分得分图
 
-![](http://img.blog.csdn.net/20170922114914511?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvRVNBX0RTUQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![](http://pbl6hpz34.bkt.clouddn.com/PCA4.jpg)
 princomp结果（基于相关系数矩阵）
 碎石图
 
-![](http://img.blog.csdn.net/20170922114947287?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvRVNBX0RTUQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![](http://pbl6hpz34.bkt.clouddn.com/PCA5.jpg)
 结果
 
-![](http://img.blog.csdn.net/20170922115017165?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvRVNBX0RTUQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![](http://pbl6hpz34.bkt.clouddn.com/PCA6.jpg)
 
 主成分得分图
 
-![](http://img.blog.csdn.net/20170922115034650?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvRVNBX0RTUQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![](http://pbl6hpz34.bkt.clouddn.com/PCA7.jpg)
 
 principal结果
 碎石图
 
-![](http://img.blog.csdn.net/20170922115104036?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvRVNBX0RTUQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![](http://pbl6hpz34.bkt.clouddn.com/PCA8.jpg)
 
 因子关系图
-![](http://img.blog.csdn.net/20170922115130649?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvRVNBX0RTUQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![](http://pbl6hpz34.bkt.clouddn.com/PCA9.jpg)
 
 主成分得分图
 
-![](http://img.blog.csdn.net/20170922115210591?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvRVNBX0RTUQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![](http://pbl6hpz34.bkt.clouddn.com/PCA10.jpg)
 
 碎石图表示的是曲线与纵坐标1交点的横坐标即为主成分个数，而主成分得分荷图是将原始数据的坐标映射在主成分分析的坐标上，事实上可以根据主成分得分在不同象限对原始数据进行分类，在本篇的样例数据里其实就是可以通过人口生成的几个主成分对中国地级市进行分类，可以区分出是在第一主成分得分高，第二主成分得分低的城市，亦或是其他排列组合的分类结果。关于这种可视化图具体如何解释。可以参照如下的文章。
 
