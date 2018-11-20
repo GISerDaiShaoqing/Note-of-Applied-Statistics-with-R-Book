@@ -39,7 +39,7 @@ Copyright 1994-2000 Encyclopaedia Britannica, In
 
 同时跟统计学密切相关的就是概率论。这二者都是研究随机现象数量规律的学科。而二者的区别可以用一张图来形象体现：
 
-![](http://pbl6hpz34.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20170501221059.jpg)
+![](http://blog.gisersqdai.top/QQ%E6%88%AA%E5%9B%BE20170501221059.jpg)
 
 也就是说，概率论是——我知道箱子里面是什么样的，我想知道我拿在手里的球是什么样的可能性分别有多大。统计学则是——我不知道箱子里面是什么样的，但是我已经知道我拿在手里的球是什么样的，我想靠我手里的球的样子去推断箱子是什么样的。
 有兴趣的也可以查看知乎上的回答。
@@ -48,7 +48,7 @@ Copyright 1994-2000 Encyclopaedia Britannica, In
 
 总结起来，统计学的研究过程就像下面的流程图。
 
-![](http://pbl6hpz34.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20170502001725.jpg)
+![](http://blog.gisersqdai.top/QQ%E6%88%AA%E5%9B%BE20170502001725.jpg)
 
 当然这里面很容易出问题的是解释数据——数学上有意义，并不代表现实中有意义，非常容易出现很多的悖论。
 比如太阳升起的时间与每个人起床时间相关性很高，但是我不能说因为每个人都起床了，所以太阳升起了。
@@ -60,7 +60,7 @@ Copyright 1994-2000 Encyclopaedia Britannica, In
 样本≠总体，那么使用推断统计才能较为准确地描述我们所研究的现象。
 事实上，近年来火热的大数据就是因为技术（传感器等）发展，我们足够获取可以近似等于全样本甚至全样本的数据而不是以往的样本数据所引起的一场变革，也就是说是由数据驱动的变革。
 
-![](http://pbl6hpz34.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20170502001730.jpg)
+![](http://blog.gisersqdai.top/QQ%E6%88%AA%E5%9B%BE20170502001730.jpg)
 
 
 统计学应用领域十分广泛，这里就不细谈了。
@@ -94,4 +94,4 @@ Copyright 1994-2000 Encyclopaedia Britannica, In
 统计量——用来描述样本的数学度量
 变量——描述现象的某种特征
 
-![](http://pbl6hpz34.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20170502001735.jpg)
+![](http://blog.gisersqdai.top/QQ%E6%88%AA%E5%9B%BE20170502001735.jpg)
