@@ -76,7 +76,7 @@ $$ x_1^{(i)},\cdots,x_{n_i}^{(i)} $$为来自$$G_i$$的样本(i=1,2)。
 
 >$$ S_i=\sum_{t=1}^{n_i}(x_t^{(i)}-\bar x^{(i)})(x_t^{(i)}-\bar x^{(i)})',\bar x=\frac{1}{2}(\bar x^{(1)}+\bar x^{(2)}) $$
 
->判别函数为$$W(x)=(x-\bar x)'\Sigma^{-1}(\bar x^{(1)}-\bar x^{(2)})$$
+>判别函数为$$W(x)=(x-\bar x)'\hat \Sigma^{-1}(\bar x^{(1)}-\bar x^{(2)})$$
 
 > * $$\Sigma_1 \neq \Sigma_2$$
 
@@ -94,7 +94,7 @@ $$W(x)=d^2(x,G_2)-d^2(x,G_1)=(x-\mu_2)'\Sigma_2^{-1}(x-\mu_2)-(x-\mu_1)'\Sigma_2
 
 >假设有k个总体$$G_1,G_2,\cdots,G_k$$，它们的均值向量分别为$$\mu_1,\mu_2,\cdots,\mu_k$$,协方差阵为$$\Sigma$$，类似于两总体的讨论，判别函数为：
 
->$$W_{ij}(x)=[x-(\mu_1+\mu_2)/2]'\Sigma^{-1}(\mu_i-\mu_j),i,j=1,\cdots,k$$
+>$$W_{ij}(x)=[x-(\mu_i+\mu_j)/2]'\Sigma^{-1}(\mu_i-\mu_j),i,j=1,\cdots,k$$
 
 >判别规则：
 
