@@ -16,10 +16,8 @@
 
 [Gitbook Online](https://giserdaishaoqing.gitbooks.io/note-of-applied-statistics-with-r-book/content/)
 
-[应用统计学与R与语言实现笔记 pdf版](http://p04n283nf.bkt.clouddn.com/note-of-applied-statistics-with-r-book.pdf)
+[应用统计学与R与语言实现笔记 pdf版](http://science.gisersqdai.top/NBAPR%2note-of-applied-statistics-with-r-book.pdf)
 
-[应用统计学与R与语言实现笔记 mobi版](http://p04n283nf.bkt.clouddn.com/note-of-applied-statistics-with-r-book.mobi)
+[应用统计学与R与语言实现笔记 mobi版](http://science.gisersqdai.top/NBAPR%2note-of-applied-statistics-with-r-book.mobi)
 
-[应用统计学与R与语言实现笔记 epub版](http://p04n283nf.bkt.clouddn.com/note-of-applied-statistics-with-r-book.epub)
-
-[应用统计学与R与语言实现笔记 网盘链接](https://pan.baidu.com/share/home?uk=2855623577&suk=QR0keGnZkZWNh9Pf3aQyaQ&view=share#category/type=0)
+[应用统计学与R与语言实现笔记 epub版](http://science.gisersqdai.top/NBAPR%2Fnote-of-applied-statistics-with-r-book.epub)
