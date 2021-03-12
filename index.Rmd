@@ -30,13 +30,10 @@ cover-image: "images/cover.jpg"
 [Note-of-Applied-Statistics-with-R](https://github.com/GISerDaiShaoqing/Note-of-Applied-Statistics-with-R)
 
 
-[Gitbook Online](https://giserdaishaoqing.gitbooks.io/note-of-applied-statistics-with-r-book/content/)
+[Gitbook Online](http://gisersqdai.top/Note-of-Applied-Statistics-with-R-Book/)
 
 
 [应用统计学与R与语言实现笔记 pdf版](http://science.gisersqdai.top/NBAPR%2Fnote-of-applied-statistics-with-r-book.pdf)
-
-
-[应用统计学与R与语言实现笔记 mobi版](http://science.gisersqdai.top/NBAPR%2Fnote-of-applied-statistics-with-r-book.mobi)
 
 
 [应用统计学与R与语言实现笔记 epub版](http://science.gisersqdai.top/NBAPR%2Fnote-of-applied-statistics-with-r-book.epub)
