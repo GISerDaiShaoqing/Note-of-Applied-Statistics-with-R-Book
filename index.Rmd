@@ -12,7 +12,7 @@ lof: false
 geometry: [a4paper, tmargin=2.5cm, bmargin=2.5cm, lmargin=2.5cm, rmargin=2.5cm]
 site: bookdown::bookdown_site
 description: ""
-github-repo: yihui/bookdown-chinese
+github-repo: GISerDaiShaoqing/Note-of-Applied-Statistics-with-R-Book
 cover-image: "images/cover.jpg"
 ---
 
