@@ -124,11 +124,11 @@ $$ \sigma=\sqrt {\frac{\sum_{i=1}^N (x_i-\mu)^2}{n}} $$ 或 $$ \sigma=\sqrt{\fra
 
 样本方差： 
 
-$$ s^2=\frac{\sum_{i=1}^N (x_i-\mu)^2}{n-1} $$ 或 $$ s^2=\frac{\sum_{i=1}^k (M_i-\mu)^2f_i}{n-1} $$
+$$ s^2=\frac{\sum_{i=1}^N (x_i-\bar {x})^2}{n-1} $$ 或 $$ s^2=\frac{\sum_{i=1}^k (M_i-\bar {x})^2f_i}{n-1} $$
 
 样本标准差：  
 
-$$ s=\sqrt {\frac{\sum_{i=1}^N (x_i-\mu)^2}{n-1}} $$ 或 $$ s=\sqrt{\frac{\sum_{i=1}^k (M_i-\mu)^2f_i}{n-1}} $$
+$$ s=\sqrt {\frac{\sum_{i=1}^N (x_i-\bar {x})^2}{n-1}} $$ 或 $$ s=\sqrt{\frac{\sum_{i=1}^k (M_i-\bar {x})^2f_i}{n-1}} $$
 
 标准分数： 
 
